@@ -1,0 +1,143 @@
+.Check{
+    display: flex;
+    font-family: 'Merriweather', serif;
+    justify-content: center;
+    align-items: center;
+    margin:40px;
+    font-size: 30px;
+}
+
+.Calculos{
+    width: 500px;
+    background-color: #ffffff;
+    border-radius: 1px;
+    box-shadow: 0px 0px 1px 3px #000000;
+    height: 450px;
+  }
+
+.gray{
+background-color: #FFCD29;
+}
+
+.Method{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    box-shadow: 0px 0px 1px 3px #000000;
+    font-family: 'Paytone One', sans-serif;
+}
+
+.mãe2{
+    display: flex;
+    margin-left: 30px;
+}
+
+.number {
+    margin-left: 30px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+.inp1{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.875rem;
+    width: 400px;
+    line-height: 24px;
+    background-color: rgb(105, 104, 104);
+    color: #fff;
+    border-radius: 5px;
+  }
+
+  .number1 {
+    margin-right: 30px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+  }
+
+  .inp2{
+  
+    display: flex;
+    flex-direction: column;
+    font-size: 0.875rem;
+    background-color: rgb(105, 104, 104);
+    color: #fff;
+    border-radius: 5px;
+  }
+
+  .number2 {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .inp3{
+    display: flex;
+    font-size: 0.875rem;
+    flex-direction: column;
+    background-color: rgb(105, 104, 104);
+    color: #fff;
+    border-radius: 6px;
+  }
+
+  .number3 {
+    margin: 26px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .inp4{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.875rem;
+    width: 400px;
+    line-height: 24px;
+    background-color: rgb(105, 104, 104);
+    color: #fff;
+    border-radius: 5px;
+  }
+
+  .mãe3{
+    display: flex;
+    margin-left: 30px;
+  }
+
+  .number4 {
+    margin-right: 37px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .inp5{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.875rem;
+    background-color: rgb(105, 104, 104);
+    color: #fff;
+    border-radius: 5px;
+  }
+
+  .number5 {
+    margin-right: 40px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .inp6{
+    display: flex;
+    font-size: 0.875rem;
+    flex-direction: column;
+    background-color: rgb(105, 104, 104);
+    color: #fff;
+    border-radius: 6px;
+  }
+  
+  .but{
+   margin-top: 100px;
+   margin-left: 9vw;
+   background-color: #FFCD29;
+   border-radius: 5px;
+   height: 35px;
+   width:19vw;
+   }

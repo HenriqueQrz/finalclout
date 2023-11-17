@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+
+  .barras {
+    height: 75px;
+    background: rgb(3, 3, 3);
+    display: flex;
+  }
+
+  .barras img {
+    cursor: pointer;
+  }
+  .barras h1{
+    color: #fff;
+    text-align: center;
+    width: 71vw;
+    margin-top: 20px !important;
+    padding-right: 50px !important;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  section {
+  width: 100%;
+  height: 100%;
+  background: #dddddd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+
+  .conteudoadm {
+   box-shadow: 0 0 0 3px;
+  height: 850px;
+  width: 905px;
+  background: #fff;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+  }
+
+  .loginzinnn a{
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: #FFCD29;
+    font-size: 33px;
+  }
+
+  .loginzinnn p {
+    height: 299px;
+    margin:0;
+    line-height: 490px;
+    font-size: 67px;
+    margin-left: 22px;
+    font-family: 'Poppins', sans-serif;
+    background-image:url('../../image/yellow\ mini.png');
+    background-repeat: no-repeat;
+    background-position-y: 225px;
+    background-position-x: 40px;
+    background-size: 45px;
+  }
+
+   .domo p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+   }
+
+  .inpu1{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.875rem;
+    width: 380px;
+    position: relative;
+    line-height: 24px;
+    background-color: black;
+    color: #fff;
+    border-radius: 8px;
+  }
+
+  .inpu2{
+    font-size: 0.875rem;
+    width: 380px;
+    position: relative;
+    line-height: 24px;
+    background-color: black;
+    color: #fff;
+    align-items: center;
+    border-radius: 8px;
+  }
+  .nobu{
+    margin-top: 10px;
+  }
+  .nobu a{
+    font-weight: 400;
+    color: var(--x-color-interactive-text);
+  }
+
+  button{
+    background-color: #FFCD29;
+    border: none;
+    padding: 18px 48px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 28px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+button::after{content: '';
+  position: absolute;
+  z-index: 1;
+  top: calc(-1 * calc(0px + 0.0625rem));
+  right: calc(-1 * calc(0px + 0.0625rem));
+  bottom: calc(-1 * calc(0px + 0.0625rem));
+  left: calc(-1 * calc(0px + 0.0625rem));
+  display: block;
+  pointer-events: none;}
+  
+  .tchouameni a{
+    font-weight: 400;
+    color: var(--x-color-interactive-text);
+  }
+}

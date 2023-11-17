@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.principal{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+.cabecalho{
+    height: 85px;
+    width: 100%;
+    background-color: rgb(30, 30, 30);
+    flex-direction: row;
+    display: flex;
+}
+
+.imgesquerda{
+    margin-right: 35px;
+    display: block;
+    align-items: center;
+}
+
+.text{
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    width: 38%;
+    background-color: rgb(30, 30, 30);
+    justify-content: space-around;
+    padding: 6px;   
+    font-size: 13px;
+    align-items: center;
+    margin-right: 50px;
+    color: white;
+}
+.lupa{
+    height: 30px;
+    align-items: center;
+    margin-top: 20px;
+    margin: 25px;
+}
+
+.lupa1{
+    height: 30px;
+    align-items: center;
+    margin-top: 25px;
+    margin-right: 15px;
+    margin-left: 10px;
+
+}
+    
+.tex2{
+    font-size: 19px ;
+    line-height: 20px;
+    margin-top: 25px;
+    margin-right: 25px;
+    color: white;
+    
+}
+
+.tec2{
+    font-size: 19px ;
+    line-height: 20px;
+    margin-top: 3px;
+    margin-right: 25px;
+    color: white;
+}
+
+.tec3{
+    font-size: 19px ;
+    line-height: 20px;
+    margin-top: 25px;
+    margin-right: 25px;
+    color: white;
+    
+}
+
+.finalcabecalho{
+    background-color: white;
+    height: 3px;
+    width: 20px;
+    margin: 2px;
+    margin-top: 2px;
+}
+
+.ff{
+    height: 80px;
+    width: 20px;
+    background-color: rgb(30, 30, 30);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0px;
+}
+.colecoes{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(30, 30, 30);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.colecao {
+    height:420px;
+    margin-top: 25px;
+    
+}
+
+.confira{
+    height: 50px;
+    position: absolute;
+    align-self:self-end;
+    margin-right: 473px;
+    margin-bottom: 100px;
+    cursor: pointer;    
+}
+
+.entrega{
+    height: 130px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.entrega img {
+    height: 100px
+}
+
+.texttt{
+    margin-right: 30px;
+    margin-top: 25px;
+}
+
+.maisvendidos{
+
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+
+}
+
+.maisvendidos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.maisvendidos h2{
+
+    font-size: 41px;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    
+
+}
+
+
+.esquerda{
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.esquerda img{
+    height: 300px;
+    margin: 50px;
+}
+
+
+.nametns{
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: end;
+    
+}
+
+.sss {
+    margin-right: 225px;
+    font-size: 16px;
+}
+
+.ssss{
+    margin-right: 150px;
+    font-size: 16px;
+}
+
+
+
+.confiraaa{
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 50px;
+    align-items: center;
+    border-radius: 45px;
+    background-color: #FFCD29;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+.brinde{
+    margin-top: 100px;
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 20px;
+    margin-bottom: 50px;
+}
+
+.brinde3{
+    font-size: 47px;
+    text-decoration: underline 2px;
+    
+}
+
+
+.logo13{
+    height: 750px;
+    width: 750px;
+    position: relative;
+    left: 280px;
+    margin-bottom: 65px;
+    cursor: pointer;
+    
+}
+
+.diferente{
+
+        display: flex;
+        background-color: #000000;
+        border-radius: 40px;
+        padding: 5px;
+        margin-bottom: 20px;
+        font-size: 50px;
+        align-self: center;
+        color: #FFCD29;
+        height: 70px;
+        width: 850px;
+        justify-content: center;
+}
+
+.logo14{
+    height: 750px;
+    width: 1050px;
+    display: flex;
+    align-self: center;
+}
+
+.setas{
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.setas h1{
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 50px;
+}
+
+
+.logo17{
+    height: 130px;
+    width: 130px;
+    display: flex;
+    align-self: center;
+    margin-bottom: 50px;
+}
+
+.sobre{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    line-height: 38px;
+    margin-bottom: 50px;
+}
+
+.sobre img{
+    height: 313px;
+}
+
+
+.logo19{
+    
+    height: 270px;
+}

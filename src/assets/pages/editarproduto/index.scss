@@ -1,0 +1,265 @@
+.principal{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+.cabecalhoo{
+    height: 85px;
+    width: 100%;
+    background-color: rgb(30, 30, 30);
+    flex-direction: row;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.imgesquerda{
+    margin-right: 35px;
+    display: block;
+    align-items: center;
+    cursor: pointer;
+}
+
+.text{
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    width: 38%;
+    background-color: rgb(30, 30, 30);
+    justify-content: space-around;
+    padding: 6px;   
+    font-size: 13px;
+    align-items: center;
+    margin-right: 50px;
+    color: white;
+    margin-top: 6px;
+}
+
+.text input{
+    height: 22px;
+    width: 400px;
+
+}
+
+.lupa{
+    height: 30px;
+    align-items: center;
+    margin-top: 20px;
+    margin: 25px;
+}
+
+.lupa1{
+    height: 30px;
+    align-items: center;
+    margin-top: 25px;
+    margin-right: 15px;
+    margin-left: 10px;
+
+}
+    
+.tex2{
+    font-size: 19px ;
+    line-height: 20px;
+    margin-top: 25px;
+    margin-right: 25px;
+    color: white;
+    
+}
+
+
+.finalcabecalho{
+    background-color: white;
+    height: 3px;
+    width: 20px;
+    margin: 2px;
+    margin-top: 2px;;
+}
+
+.ff{
+    height: 80px;
+    width: 20px;
+    background-color: rgb(30, 30, 30);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5px;
+    
+}
+
+
+.high{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    width: 70vw;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    
+
+}
+
+.imagens{
+    flex-direction: row;
+    display: flex;
+    height: 230px;
+    width: 70vw;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+
+.logo20{
+    height: 230px;
+    width: 200px;
+}
+
+
+.logo21{
+    
+    height: 230px;
+    width: 200px;
+}
+
+
+.logo22{
+    
+    height: 230px;
+    width: 200px;
+}
+
+.nomes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70vw;
+    height: 19px;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.cm1{
+    align-self: flex-end;
+    position: relative;
+    left: 50px;
+}
+
+.cm2{
+    align-self: flex-end;
+    position: relative;
+    left: 10px;
+}
+
+.cm3{
+    align-self: flex-end;
+    position: relative;
+    right: 34px;
+}
+
+.cm4{
+    position: relative;
+    left: 115px;
+}
+
+.cm6{
+    position: relative;
+    right: 115px;
+}
+
+.nomes2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70vw;
+    height: 19px;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+
+.nomes3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70vw;
+    height: 19px;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.cm7{
+    position: relative;
+    left: 86px;
+}
+
+.cm9{
+    position: relative;
+    right: 75px;
+}
+
+.logo23{
+    height: 20px;
+    width: 20px;
+}
+
+.edit{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+}
+
+.meio{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(255, 255, 255);
+}
+
+.direita{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    left: 270px;
+    
+}
+
+.esquerdaedit{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    right: 266px;
+}
+
+.logo24{
+    height: 20px;
+    width: 20px;
+    
+}
+
+.logo232{
+    height: 20px;
+    width: 20px;
+}
+
+.logo242{
+    height: 20px;
+    width: 20px;
+}
+
+.logo233{
+    height: 20px;
+    width: 20px;
+}
+
+.logo243{
+    height: 20px;
+    width: 20px;
+    
+    
+}

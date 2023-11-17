@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+.Vector{
+    margin-top: 75px;
+    width: 100%;
+  }
+
+  .check{
+    display: flex;
+    font-family: 'Merriweather', serif;
+    margin-left: 66vw;
+    margin-top: 80px;
+  }
+
+  .mãe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+  }
+
+  .method{
+    margin-left: 100px;
+    font-family: 'Paytone One', sans-serif;
+    font-size: medium;
+  }
+
+  .yellow{
+    width: 500px;
+    height: 50px;
+    background-color: #FFCD29;
+    display: flex;
+    border-radius: 4px;
+    box-shadow: 0px 0px 1px 3px #000000;
+  }
+
+  .calculos{
+    width: 500px;
+    background-color: #ffffff;
+    border-radius: 1px;
+    box-shadow: 0px 0px 1px 3px #000000;
+    height: 300px;
+  }
+
+  .piquis{
+    display: flex;
+   flex-direction: row;
+   height: 100px;
+   align-items: center;
+  }
+
+  .pix1{
+padding: 20px;
+
+  }
+
+  .pix2{
+    flex-direction: column ;
+  }
+  .pix2 h2{
+    font-size: 20px;
+  }
+  .pix2 h4{
+    font-size: 12px;
+  }
+
+  .debito{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    align-items: center;
+  }
+
+  .debito1{
+    padding: 20px;
+
+  }
+
+
+  .debito2 h2{
+    font-size: 20px;
+  }
+
+  .credito{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    align-items: center;
+  }
+
+  .credito1{
+padding: 20px;
+  }
+
+  .credito2 h2{
+    font-size: 20px;
+  }
+
+  .resumo{
+    width: 590px;
+    height: 50px;
+    display: flex;
+    border-radius: 4px;
+    box-shadow: 0px 0px 1px 3px #000000;
+  }
+
+  .rest{
+    margin-left: 30px;
+    font-size: 16px;
+    font-family: 'Paytone One', sans-serif;
+  }
+  .edit{
+    margin-left: 240px;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .edit:hover{
+    text-decoration: underline;
+  }
+
+  
+  .auto{
+    background-color: #ffffff;
+    width: 590px;
+    border-radius: 1px;
+    box-shadow: 0px 0px 1px 3px #000000;
+    height: 90px;
+  }
+
+  .vajin{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    align-items: center;
+  }
+
+  .box{
+    display: flex;
+    box-shadow: 0px 0px 1px 3px #000000;
+    background-image: url(../../image/dunklow.png);
+    height: 50px;
+    width: 50px;
+    margin:15px;
+    justify-content: space-around;
+  }
+
+  .price {
+    font-size: 16px;
+    margin-left: 160px;
+    color: #616060;
+  }
+
+  .land{
+    background-color: #ffffff;
+    width: 590px;
+    border-radius: 1px;
+    box-shadow: 0px 0px 1px 3px #000000;
+    height: 90px;
+    margin:0px;
+    display: flex;
+  }
+
+  .pork{
+   margin-left: 19px;
+   margin-top: 27px;
+   font-family: 'Merriweather', serif;
+  }
+
+  .free{
+    margin-top: 38px;
+    margin-left: 23vw;
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+  }
+
+  .tot{
+    background-color: #ffffff;
+    width: 590px;
+    border-radius: 1px;
+    box-shadow: 0px 0px 1px 3px #000000;
+    height: 90px;
+    margin:0px;
+    display: flex;
+  }
+
+  .total{
+    font-family: 'Merriweather', serif;
+    margin-left: 19px;
+    margin-top: 32px;
+    font-size: 23px;
+  }
+
+  .cash{
+    font-size: 16px;
+    margin-top: 38px;
+    margin-left: 28vw;
+  }
+
