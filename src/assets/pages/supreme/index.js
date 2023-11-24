@@ -109,7 +109,7 @@ function Consultasupreme()
     <img className="lupa" src={logo3} />
     <img className="lupa1" src={logo5} />
 
-    <h2 className="tex2"> Minha conta <br></br> Conecte-se </h2>
+    <h2 className="tex2"> Conecte-se </h2>
 
     <img className="lupa" src={logo4} />
     <h2 className="tex2"> Carrinho <br></br> R$ 0,00 BRL </h2>

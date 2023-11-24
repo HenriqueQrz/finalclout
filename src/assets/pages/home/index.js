@@ -6,7 +6,6 @@ import { useNavigate } from 'react-router-dom';
 import logo1 from "../../image/bad-yellow 2.png"
 import logo2 from "../../image/yellow bad 1.png"
 import logo3 from "../../image//pngtree-vector-magnifying-glass-icon-png-image_889405.png"
-import profi from "../../image/profi.png"
 import logo4 from "../../image/image 2.png"
 import logo5 from "../../image/image 63.png"
 import logo6 from "../../image/SUF COLLAGE 1.png"
@@ -35,10 +34,17 @@ import marcabad from "../../image/marcabd.jpg"
 
 
 
-
 import './index.scss';
 
+
+
 function App() {
+
+
+  
+
+
+    const [Searchtext, setSearchtext] = useState('')
     const navigate = useNavigate();
 
 
@@ -47,34 +53,66 @@ function App() {
 
     }
 
-   
+    function ircadastro() {
+      navigate ('/cadastro')
+    }
+
+    function vlone(){
+      navigate ('/vlone')
+    }
+
+    function irparacarrinho(){
+      navigate ('/payment')
+    }
+
+
+
+   function onSearch(){
+
+    console.log(Searchtext)
+    navigate (`/consulta/${Searchtext}`)
+
+   }  
   
   return (
     <div className="principal">
       <div className="cabecalho">
         <div className="imgesquerda">
-
-          <a href="/">  <img src={logo1} className="logo1" />
-          <img src={logo2}  className="logo2"/> </a>
+          <img src={logo1} />
+          <img src={logo2} />
         </div>
 
         <div className="text">
-          <h2 className='shop'> SHOP </h2>
-          <h2 className='brand'> BRANDS </h2>
-          <h2 className='sneak'> SNEAKERS </h2>
+       <a href='#sobre' className='sobrenosscrool'>   
+        <h2> SOBRE NÓS</h2>
+        </a>
+          <h2 onClick={vlone}> SHOP </h2>
+          <h2 onClick={vlone}> BRANDS </h2>
         </div>
 
-        <img className="lupa" src={logo3}/>
-        <img className="lupa1" src={profi}/>
 
-       <div>
-        <h2 className="tex2"> Minha conta </h2><h2 className="tec2">Conecte-se </h2>
-    
-        </div>
 
-        <div></div>
+        <input className='inputhome' type='text' value={Searchtext} onKeyDown={(e) => (e.code === "Enter" ? onSearch() : null)}  onChange={(e)  => setSearchtext(e.target.value)} />
+
+
+        
+          <img className="lupa" src={logo3} />
+       
+
+        
+        
+
+        
+        
+        
+        <img className="lupa1" src={logo5} />
+
+      
+
+        <h2 className="tex2" onClick={ircadastro}>  Conecte-se </h2>
+
         <img className="lupa" src={logo4} />
-        <h2 className="tec3"> Carrinho <br></br> R$ 0,00 BRL </h2>
+        <h2 onClick={irparacarrinho} className="tex2ca"> Carrinho <br></br> R$ 1799,99 BRL </h2>
 
         <div className="ff">
           <div className="finalcabecalho"></div>
@@ -161,8 +199,9 @@ function App() {
         </div>
 
 
-        <img className="logo13" src={marcabad}/>
-
+        <a href="https://www.instagram.com/dkz.co/" target="_blank">
+          <img className="logo13" src={marcabad}/>
+        </a>
 
         <h1 className="diferente"> Seja o diferente dentre os iguais </h1>
 
@@ -187,7 +226,7 @@ function App() {
         <img className="logo17" src= {logo17}/>
 
 
-        <div className="sobre">
+        <div id='sobre'>
 
           <p>        Somos uma empresa criada por 3  adolescentes <br></br> que surgiu por conta da dificil demanda de peças <br></br> ㅤ unicas presentes em culturas diferentes, <br></br> decidimos criar uma loja para ajudar pessoas a <br></br>  ㅤ terem acesso a uma cultura underground. <br></br>
  O nosso foco aqui é trazer os melhores produtos <br></br> da Gringa para o Brasil, contando sempre com a <br></br>  ㅤㅤ ㅤhonestidade    e transparência.
