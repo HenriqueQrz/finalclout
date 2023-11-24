@@ -81,10 +81,18 @@ function Consultasufgang()
     navigate('/')
   }
 
+  function supreme(){
+    navigate ('/supreme')
+  }
+
+  function assc(){
+    navigate ('/assc')
+  }
+
 
   return (
 <div className='principal'>
-    <div className="cabecalhoo">
+    <div className="cabecalho">
     <div className="imgesquerda">
       <img src={logo1} onClick={logo} />
       <img src={logo2} onClick={logo} />
@@ -97,7 +105,7 @@ function Consultasufgang()
     <img className="lupa" src={logo3} />
     <img className="lupa1" src={logo5} />
 
-    <h2 className="tex2"> Minha conta <br></br> Conecte-se </h2>
+    <h2 className="tex2"> Conecte-se </h2>
 
     <img className="lupa" src={logo4} />
     <h2 className="tex2"> Carrinho <br></br> R$ 0,00 BRL </h2>
@@ -117,8 +125,8 @@ function Consultasufgang()
         <img src={sufganglogo} onClick={sufgang} /> 
         <img src={vlonelogo} onClick={vlone} />
         <img src={palacelogo} onClick={palace}/>
-        <img src={supremelogo} />
-        <img src={assclogo} />
+        <img src={supremelogo} onClick={supreme} />
+        <img src={assclogo} onClick={assc} />
         <img src={offwhite} /> 
 
     </div>
