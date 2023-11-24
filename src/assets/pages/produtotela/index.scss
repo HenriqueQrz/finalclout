@@ -1,0 +1,71 @@
+.prinprodtela{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.imagemesqprod{
+    display: flex;
+    margin-top: 100px;
+    height: 600px;
+    width: 650px;
+    background-color: rgb(255, 255, 255);
+    justify-content: end;
+    margin-right: 100px;
+}
+
+.imgesqprod{
+    height: 500px;
+    width: 500px;
+    border:black;
+}
+
+.nometelaprod{
+    margin-top: 120px;
+    font-size: larger;
+}
+    
+
+.nomestelaprod{
+    display: flex;
+    flex-direction: column;
+}
+
+.tamanhoprodtela{
+    margin-top: 20px;
+}
+
+.precoprinprod{
+    color: #42D82A;
+    margin-top: 10px;
+}
+
+.riscadoprod{
+    margin-top: 20px;
+    text-decoration: line-through;  
+}
+
+.precopixprod{
+    color: #CED9E4;
+    font-size: medium;
+}
+
+.addcarrin{
+    margin-top: 40px;
+    font-size: medium;
+    background-color: #F13F1B;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.medidasnm{
+    color: #656767;
+    background-color: #CED9E4;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
